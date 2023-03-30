@@ -57,7 +57,10 @@ RUN dpkg --add-architecture i386 && \
 		uuid-runtime \
 		wget \
 		xz-utils \
-    pigz
+		pigz \
+		distro-info \
+		libxml2-utils \
+		uuid-runtime
 
 # Install NodeJS
 RUN curl -SLO https://deb.nodesource.com/nsolid_setup_deb.sh; \
